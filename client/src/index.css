@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+    background: #222222;
+    color: white;
+  }
+  
+  circle,
+  rect,
+  line {
+    stroke-width: 5px;
+    fill: transparent;
+  }
+  

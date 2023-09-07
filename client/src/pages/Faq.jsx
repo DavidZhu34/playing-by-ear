@@ -1,12 +1,12 @@
 import Line from "../components/Line";
 
-export default function About() {
+export default function Faq() {
   return (
     
     <div className='px-4 py-28 max-w-3xl mx-auto'>
-      <h1 className='text-4xl font-bold text-white'>About</h1>
+      <h1 className='text-4xl font-bold text-white'>FAQ</h1>
       <Line className = 'flex justify-start'/>
-      <p className = 'mt-8 mb-8 white text-large'>
+      <p className = 'text-bold mt-8 mb-8 white text-large'>
         Hi, I'm David!
       </p>
       <p className='mb-8 white text-large'>
