@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Line from "../components/Line";
 
 export default function About() {
