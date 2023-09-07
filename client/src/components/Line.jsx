@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const draw = {
   hidden: { pathLength: 0, opacity: 0 },
   visible: (i) => {
-    const delay = i * 0.10;
+    const delay = i * 0.01;
     return {
       pathLength: 1,
       opacity: 1,
@@ -17,7 +17,7 @@ const draw = {
 export default function Line() {
 
   const lines = [
-    { x1: 0, y1: 10, x2: 740, y2: 10 },
+    { x1: 0, y1: 10, x2: 760, y2: 10 },
   ];
 
   // Function to play the audio once
@@ -27,7 +27,7 @@ export default function Line() {
 
   return (
     <>
-      <motion.svg width="600" height="10" viewBox="0 0 740 10" initial="hidden" animate="visible">
+      <motion.svg width="800" height="10" viewBox="0 0 800 10" initial="hidden" animate="visible">
         {lines.map((line, index) => (
           <motion.line
             key={`line-${index}`}

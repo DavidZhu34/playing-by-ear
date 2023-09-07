@@ -7,7 +7,7 @@ export default function Header() {
     <div>
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3 text-2xl'>
         <Link to='/'>
-          <h1 className='font'>Playing By Ear</h1>
+          <h1 className='font'>Home</h1>
         </Link>
         <ul className='flex gap-4'>
           <Link to='/about'>

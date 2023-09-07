@@ -3,7 +3,7 @@ import Line from "../components/Line";
 export default function About() {
   return (
     
-    <div className='px-4 py-28 max-w-3xl mx-auto'>
+    <div className='px-4 py-16 max-w-4xl mx-auto'>
       <h1 className='text-4xl font-bold text-white'>About</h1>
       <Line className = 'flex justify-start'/>
       <p className = 'mt-8 mb-8 white text-large'>
@@ -20,16 +20,16 @@ export default function About() {
         spending money on an arrangement you might not enjoy.
       </p>
       <p className='white text-large'>
-        I pitched the idea to the music department at UC Berkeley. With a green light, some 
-        flyers, and some rusty pianos, Playing By Ear transformed into one of the most
+        I pitched the idea to the music department at UC Berkeley. With a green light, 
+        flyers, and some rusty pianos, Playing By Ear grew into one of the most
         popular classes for music at UC Berkeley. Between 2021-2023, with the help of some amazing TAs, I've
-        taught hundreds of students and launched several concerts showcasing their amazing talents. 
+        taught hundreds of students and launched concerts to showcase their amazing talents. 
       </p>
       <p className='mb-8 white text-large'>
-        (Go check out <a href="https://www.instagram.com/berkeley_pbe/" target="_blank" rel="noopener noreferrer">@berkeley_pbe</a> on Instagram to see their performances!)
+        (Go check out <a href="https://www.instagram.com/berkeley_pbe/" className="text-blue-500" target="_blank" rel="noopener noreferrer">@berkeley_pbe</a> on Instagram to see their performances!)
       </p>
       <p className='mb-8 white text-large'>
-        Using the same curriculum, I want to introduce these lessons to you – regardless of your background in piano.
+        Using the same curriculum, I want to introduce these lessons to you, regardless of your background in piano.
         Having prior formal training will speed up your progress, but please take your time with your learning!
       </p>
       <p className='mb-8 white text-large'>

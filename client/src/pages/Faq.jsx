@@ -3,39 +3,61 @@ import Line from "../components/Line";
 export default function Faq() {
   return (
     
-    <div className='px-4 py-28 max-w-3xl mx-auto'>
+    <div className='px-4 py-16 max-w-4xl mx-auto'>
       <h1 className='text-4xl font-bold text-white'>FAQ</h1>
       <Line className = 'flex justify-start'/>
-      <p className = 'text-bold mt-8 mb-8 white text-large'>
-        Hi, I'm David!
+      <p className = 'font-bold mt-8 mb-1 white text-xl'>
+        Do I need to know how to play piano to start?
       </p>
       <p className='mb-8 white text-large'>
-        Playing By Ear started as a small concept during my time in undergrad.
-        In all 13 years I've played the piano, the part that remains my favorite
-        is trying to piece together a song I enjoy listening to. Music becomes such a 
-        richer experience when you self-arrange a piece, and truly, deeply, <i>listen.</i>
+        While having prior experience will help, it's not necessary.
       </p>
-      <p className = 'mb-8 white text-large'>
-        Also, let's be honest – there isn't sheet music for everything. When it does exists, you risk 
-        spending money on an arrangement you might not enjoy.
-      </p>
-      <p className='white text-large'>
-        I pitched the idea to the music department at UC Berkeley. With a green light, some 
-        flyers, and some rusty pianos, Playing By Ear transformed into one of the most
-        popular classes for music at UC Berkeley. Between 2021-2023, with the help of some amazing TAs, I've
-        taught hundreds of students and launched several concerts showcasing their amazing talents. 
+
+      <p className = 'font-bold mt-8 mb-1 white text-xl'>
+        Who is this course designed for?
       </p>
       <p className='mb-8 white text-large'>
-        (Go check out <a href="https://www.instagram.com/berkeley_pbe/" target="_blank" rel="noopener noreferrer">@berkeley_pbe</a> on Instagram to see their performances!)
+        Anyone that wants to start learning how to make their own music! 
+      </p>
+
+      <p className = 'font-bold mt-8 mb-1 white text-xl'>
+        Are these courses free?
       </p>
       <p className='mb-8 white text-large'>
-        Using the same curriculum, I want to introduce these lessons to you – regardless of your background in piano.
-        Having prior formal training will speed up your progress, but please take your time with your learning!
+        YES!
+      </p>
+
+      <p className = 'font-bold mt-8 mb-1 white text-xl'>
+        Do I need to know how to play piano to start?
       </p>
       <p className='mb-8 white text-large'>
-      Playing by ear isn't just a fun activity – it's a life-long skill that will deeply transform the way you 
-      create music and interpret the world. 
+        While having prior experience will help, it is not necessary!
       </p>
+
+      <p className = 'font-bold mt-8 mb-1 white text-xl'>
+        Do I need to own a piano?
+      </p>
+      <p className='mb-8 white text-large'>
+        You can always learn the theory in the meantime, but fingers on the keyboard is the best way to learn.
+      </p>
+
+      <p className = 'font-bold mt-8 mb-1 white text-xl'>
+        Do you have any recommendations for digital pianos?
+      </p>
+      <p className='mb-8 white text-large'>
+        The price is hefty, but I highly recommend the 
+        <a href = "https://www.roland.com/us/products/rp102/"target="_blank" className="text-blue-500" rel="noopener noreferrer"> Roland RP-102. </a>
+        Otherwise, the only thing that's non-negotiable is that you have 88 weighted keys.
+      </p>
+
+      <p className = 'font-bold mt-8 mb-1 white text-xl'>
+        Should I still learn to play with sheet music? 
+      </p>
+      <p className='mb-8 white text-large'>
+        Absolutely. Playing by ear is not enough to make a good musician. The best inspiration for arranging and composing
+        comes from listening to and studying the works of other amazing musicians.
+      </p>
+      
     </div>
   );
 }

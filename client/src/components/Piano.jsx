@@ -44,7 +44,7 @@ export default function Piano() {
 
   return (
     <>
-      <motion.svg width="600" height="600" viewBox="0 0 740 740" initial="hidden" animate="visible">
+      <motion.svg width="600" height="400" viewBox="0 0 742.5 600" initial="hidden" animate="visible">
       
         {rectangles.map((rect, index) => (
           
